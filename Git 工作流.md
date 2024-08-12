@@ -10,7 +10,7 @@
 
 ​	自己创建仓库的时候可以看到：
 
-![image-20240812084349055](/home/lewis/Documents/Typora/Git 工作流.assets/image-20240812084349055.png)
+![image-20240812084349055](Git 工作流.assets/image-20240812084349055-17234787180812.png)
 
 ​	当我们第一次push git上远程仓库的时候我们一般会执行：
 
@@ -94,7 +94,7 @@ git checkout <new-branch>
 git rebase main
 ```
 
-![image-20240812225732363](/home/lewis/Documents/Typora/Git 工作流.assets/image-20240812225732363.png)
+![image-20240812225732363](Git 工作流.assets/image-20240812225732363-17234787241263.png)
 
 ​	`rebase` ：git会从`new-branch`和`main`的共同祖先开始提取`new-branch`分支上的修改，然后将`new-branch`分支指向`main`分支的最新提交，进行冲突处理
 
@@ -113,7 +113,7 @@ git push -f origin <new-branch>
 
 ​	在Remote仓库中找到**Pull requests**，点击**New pull request**，选择对应的分支后，**Create pull request** 等待仓库管理员的同意
 
-![image-20240812233422941](/home/lewis/Documents/Typora/Git 工作流.assets/image-20240812233422941.png)
+![image-20240812233422941](Git 工作流.assets/image-20240812233422941-17234787275494.png)
 
 ​	此时我们的合并任务就完成了！
 
